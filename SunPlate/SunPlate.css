@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header, .banner, section, .video{
+    width: 100%;
+}
+section .container{
+    width: 1400px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .container .main_title{
+    text-align: center;
+    font-size: 25px;
+}
+section .container .main_title h2{
+    color: #518432;
+}
+section .container .main_title p{
+    padding: 50px 0px;
+    color:#949494;
+    font-size: 18px;
+}
+.section .container .list_group{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.section .container .list_group .item h3{
+    color: #333333;
+    font-size: 25px;
+}
+.section .container .list_group .item p{
+    color: #9c9c9c;
+    padding: 20px 0px 40px;
+    font-size: 18px;
+}
+header .container{
+    width: 100%;
+    display: flex;
+    flex: 1;
+    background-color: white;
+    align-items:center ;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    position: fixed;
+}
+header .container nav a{
+    padding: 5px 1em;
+    text-decoration: none;
+    color: black;
+}
+header .container nav a:hover{
+    color: green;
+}
+header .container .store_pic{
+    width: 200px;
+}
+header .container .store_pic img{
+    width: 100%;
+}
+header .container ul{
+    display: flex;
+    width: 130px;
+    align-items: center;
+    padding-right: 50px;
+}
+header .container ul a:hover{
+    color: green;
+}
+header .container ul .login{
+    padding: 0px 30px;
+}
+header .container ul img{
+    width: 100%;
+}
+.banner{
+    height: 100vh;
+    background-image: url(pic/asset7.png);
+}
+.banner .container{
+    width: 1250px;
+    padding-top: 110px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.banner .container .text{
+    width: 400px;
+    margin-right: 150px;  
+}
+.banner .container .text h2{
+    font-size: 60px;
+}
+.banner .container .text p{
+    color: grey;
+    font-size: 20px;
+}
+.banner .container .text button{
+    margin-top: 20px;
+    width: 160px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.banner .container .text button:hover{
+    background-color: rgb(19, 255, 235);
+}
+.banner .container .banner_pic{
+    width: 650px;
+}
+.banner .container .banner_pic img{
+    width: 100%;
+}
+.about .container .list_group .text{
+    width: 435px;
+}
+.about .container .list_group .text:first-child{
+    text-align: right;
+}
+.products .container .list_group{
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.products .container .list_group .item{
+    width: 435px;
+    padding-right: 30px;
+}
+.products .container .list_group .item img{
+    width: 100%;
+}
+.products .container .list_group .item a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.products .container .list_group .item h3{
+    font-size: 5px;
+    padding-top: 20px;
+}
+.products .container .list_group .item p{
+    color: #333333;
+}
+.products .container .list_group .item span{
+    font-size: small;
+}
+.video{
+    height: 600px;
+}
+.video .container{
+    background-image: url(pic/asset43.png) ;
+    background-repeat: no-repeat;
+    width: 1600px;
+    flex-direction: row;
+    padding: 60px 0px 60px;
+    margin: 0px auto;
+}
+.video .container .main_title{
+    text-align: left;
+    padding-left: 220px;
+}
+.video .container .main_title p{
+    padding-top: 20px;
+    color: #212529;
+    font-size: 18px;
+    width: 500px;
+}
+.video .container button{
+    color: #333333;
+    background-color: transparent;
+    border: 1px black solid;
+    height: 60px;
+    width: 180px;
+    color: black;
+}
+.video .container button:hover{
+    background-color: #518432;
+    color: white;
+}
+.video .container .info{
+    width: 900px;
+}
+.video .container .info img{
+    padding-left: 60px;
+    padding-top: 40px;
+    width: 700px;
+}
+.service .container .main_title h3{
+    padding: 30px 0px;
+}
+.service .container .list_group{
+    width: 1400px;
+}
+.service .container .list_group .item{
+    width: 400px;
+
+    padding: 0px 10px;
+}
+.service .container .list_group .item img{
+    width: 100%;
+    vertical-align: middle;
+}
+footer{
+    background-color: #f4f4f4;
+    height: 350px;
+}
+footer .container{
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .container .main_title{
+    width: 160px;
+}
+footer .container .main_title img{
+    width: 100%;
+}
+footer .container>div{
+    padding: 30px 0px;
+}
+footer .container .items a{
+    text-decoration: none;
+    color: #333333;
+    padding: 0px 30px;
+    position: relative;
+}
+footer .container .items .about a:not(:last-child)::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    right: -20px;
+}
+footer .container .items .copyright{
+    color: #AAA9A9;
+    text-align: center;
+}
+footer .container .items .community{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .container .items .community .item{
+    margin: auto 5px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+}
+footer .container .items .community a i{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    left: 30%;
+    top: 100%;
+}
